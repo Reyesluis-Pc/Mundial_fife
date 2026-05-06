@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(80,2,23);
+}
+
+h1{
+    background-color: white;
+    opacity: 0,5;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+
+section{
+    padding: 20px;
+}
+
+h2{
+    padding: 20px;
+}
+
+h2{
+    color: #8B0000;
+}
+
+.card{
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+img{
+ width: 80%;
+ height: 300px;
+ object-fit: cover;
+ border-radius: 10px;
+ margin-top: 10px;
+}
+
