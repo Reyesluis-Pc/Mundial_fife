@@ -1,8 +1,71 @@
-/* inicio */
-/* equipos */
-/* oriente */
-/* estadios */
-/* j. jovenes d. */
-/* tecnologia avanzada */
-/* mascota */
-/* perfiles */
+body{
+    background-color:  rgb(80, 2, 23);
+}
+h1{
+    background-color: white;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+img{
+   display: block;
+   margin: auto;
+   }
+
+.contenedor{
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(80, 2, 23);
+    margin: 0 auto;
+}
+
+.contenedor div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    outline: 10px solid white;
+    overflow: hidden;
+}
+
+.contenedor .caja1{
+    background-color: rgb(76, 0, 0);
+    display: flex;
+    gap: 20px;
+
+}
+.contenedor .img{
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+}
+.contenedor .caja2{
+background-color: rgb(76, 0, 0);
+}
+
+.contenedor .caja3{
+background-color:  rgb(76, 0, 0);
+}
+
+.contenedor .caja4{
+background-color:  rgb(76, 0, 0);
+}
+
+.contenedor .caja5{
+background-color: rgb(76, 0, 0);
+}
