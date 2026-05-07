@@ -16,24 +16,44 @@ h1{
     margin: 0;
 }
 
+/* contenedor */
+.contenedor-annahy{
+    width: 90%;
+    margin: 40px auto;
+}
+
+/* Bloques */
+.bloque-annahy{
+    background-color: rgba(225, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    backdrop-filter: blur(5px);
+}
+
+/* efecto */
+.bloque-annahy:hover{
+    transform: scale(1.02);
+}
+
 /* Subtitulos */
 h2{
     text-align: center;
     color: white;
     font-size: 50px;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
-/* Parrafos */
+/* Texto */
 p{
-    text-align: center;
+    text-align: justify;
     color: white;
-    font-size: 30px;
-    width: 80%;
-    margin: 20px auto;
-    line-height: 1.5
+    font-size: 22px;
+    line-height: 1.6;
 }
+
 
 /* Imagenes */
 img{
@@ -41,9 +61,10 @@ img{
     margin: 25px auto;
     width: 50%;
     border-radius: 15px;
+    box-shadow: 0 0 15px black;
 }
 
-/* selecciones */
-section{
-    margin-bottom: 60px;
+/* zoom */
+img:hover{
+    transition: 0.3s;
 }
