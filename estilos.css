@@ -1,0 +1,53 @@
+body{
+    background-color:  rgb(80, 2, 23);
+}
+h1{
+    background-color: white;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    font-size: 48px;
+    opacity: 0.5;
+}
+.contenedor-vilma{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    margin: 30px auto;
+
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgb(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.imagen{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.texto2{
+    margin-bottom: 10px;
+
+}
+.texto p::first-letter{
+    color: rgb(24, 58, 248);
+    font-size: 24px;
+    font-weight: bold;
+}
+.contenedor-general{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
