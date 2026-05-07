@@ -18,13 +18,13 @@ section{
 
 h2{
     padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
 }
 
-h2{
-    color: #8B0000;
-}
 
-.card{
+.card .Andy{
     background: white;
     padding: 15px;
     margin: 15px 0;
