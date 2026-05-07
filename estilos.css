@@ -24,7 +24,7 @@ h2{
 }
 
 
-.card .Andy{
+.card-andy{
     background: white;
     padding: 15px;
     margin: 15px 0;
@@ -39,3 +39,6 @@ img{
  margin-top: 10px;
 }
 
+p{
+    font-size: 200%;
+}
