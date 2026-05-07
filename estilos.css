@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(80, 2, 23);
+}
+ h1{
+    background-color: black;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+ }
+ header{
+    background: #daaebb;
+    color: rgb(216, 223, 219);
+    text-align: center;
+    padding: 40px;
+ }
+ header h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+ }
+
+ .contenedor-gael{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30 px 0;
+ }
+
+ .card-gael{
+    background:white;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px;
+    transition: 0.3s;
+ }
+
+.card-gael:hover{
+    transform: translate(-5px);
+}
+
+h2{
+       color:white;
+    margin-bottom: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.card-gael h3{
+    color: #8A1538;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.card-gael p{
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.card-gael ul{
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.card-gael li{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.imagen{
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 20px;
+}
