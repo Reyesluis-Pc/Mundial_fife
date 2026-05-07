@@ -18,7 +18,7 @@ p{
     color: white;
     font-size: 30px;
 }
-img{
+.perfil-img{
      display: block;
    margin: auto;
   
@@ -89,13 +89,13 @@ img{
 }
 .contenedor .caja7{
  background-color: rgb(76, 0, 0);
-    gap: 10px;
     display: flex;
-
 }
 
 h4{
-       background-color: white;
+    text-align: center;
+    font-size: 50px;
+        background-color: white;
     opacity: 0.5;
     text-align: center;
     font-size: 48px;
