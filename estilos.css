@@ -1,7 +1,4 @@
-body{
-    background-color:  rgb(80, 2, 23);
-}
-h1{
+.Argentina{
     background-color: white;
     opacity: 0.5;
     text-align: center;
@@ -9,7 +6,7 @@ h1{
     font-weight: bold;
 }
 
-h2{
+.alemania{
     text-align: center;
     font-size: 48px;
     opacity: 0.5;
