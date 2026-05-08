@@ -1,23 +1,11 @@
-body{
-    background-color: rgb(80, 2, 23);
-}
- h1{
-    background-color: black;
-    opacity: 0.5;
-    text-align: center;
-    font-size: 48px;
-    font-weight: bold;
- }
+
  header{
     background: #daaebb;
     color: rgb(216, 223, 219);
     text-align: center;
     padding: 40px;
  }
- header h1{
-    font-size: 45px;
-    margin-bottom: 10px;
- }
+
 
  .contenedor-gael{
     width: 90%;
@@ -39,21 +27,21 @@ body{
     transform: translate(-5px);
 }
 
-h2{
-       color:white;
+.oriente{
+       color:rgb(255, 255, 255);
     margin-bottom: 30px;
     font-size: 50px;
     text-align: center;
 }
 
 
-.card-gael h3{
+.card-gael .medio{
     color: #8A1538;
     margin-bottom: 15px;
     font-size: 30px;
 }
 
-.card-gael p{
+.card-gael .lugar{
     font-size: 18px;
     line-height: 1.7;
     text-align: justify;
@@ -64,12 +52,12 @@ h2{
     padding-left: 20px;
 }
 
-.card-gael li{
+.card-gael .invierno{
     margin-bottom: 10px;
     font-size: 18px;
 }
 
-.imagen{
+.gae{
     width: 100%;
     border-radius: 12px;
     margin-top: 20px;
