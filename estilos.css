@@ -1,3 +1,70 @@
+.contenedor-annahy{
+    background-color: rgb(80, 2, 23);
+    width: 90%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Bloques */
+.bloque-annahy{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    backdrop-filter: blur(5px);
+}
+
+/* efecto */
+.bloque-annahy:hover{
+    transform: scale(1.02);
+}
+
+/* Subtitulos */
+.Jugadores-Jovenes{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.Parrafo-Jugadores-Destacados{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+/* Parrafos */
+.Parrafo-Jugadores-Jovenes{
+    text-align: justify;
+    color: white;
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+/* Imagenes */
+.Jugadores-Annahy{
+    display: block;
+    margin: 25px auto;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+    transition: 0.3s;
+
+}
+
+/* zoom */
+.Jugadores-Annahy:hover{
+    transform: scale(1.03);
+}
 .frase{
     font-size: 30px;
     text-align: right;
